@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/textyle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+</head>
+
+<body>
+    <script>
+        AOS.init();
+    </script>
+    <section class="hid">
+        <div class="flx">
+            <article>
+                <a href="">
+                    <h1>HOME</h1>
+                </a>
+                <a href="">
+                    <h1>ABOUT</h1>
+                </a>
+                <a href="">
+                    <h1>WORK</h1>
+                </a>
+                <a href="">
+                    <h1>CONTACT</h1>
+                </a>
+            </article>
+            <div>
+                <p>Contact me at klucas96@naver.com
+                    Add me on KakaoTalk ID blackcas
+                    Designed by Kim Hong Rae</p>
+            </div>
+        </div>
+        <div class="vis">
+            <a href=""><img src="imgs/burger_red.png"></a>
+        </div>
+        <div class="tall">
+            <canvas id="cvq" width="1920" height="1080"></canvas>
+        </div>
+    </section>
+
+    <script>
+        var b = document.querySelector('#cvq');
+        var book = b.getContext('2d');
+
+                book.strokeStyle = '#f5f5f5';
+                book.globalAlpha = 0.4;
+                book.lineWidth = 28;
+                book.arc(1950,120, 330, 0, Math.PI*2, false);
+                book.stroke();
+
+
+    </script>
+    
+    <section class="one cir">
+        <div class="head">
+            <div class="big_img">
+                <img src="imgs/main_img.jpg">
+            </div>
+            <article class="first" >
+                <h2>Welcome to my Portfolio</h2>
+                <h1><strong>Kim</strong> Hong-Rae</h1>
+                <div class="com"  data-aos="fade-up" data-aos-duration="2000">
+                    <p>“사용자에게 인정받는 개발자가 되고 싶습니다.”</p>
+                    <p>빠르게 변화를 받아들이면서 유저들의 피드백을 적극적으로 수용하는
+                        신입 개발자 김홍래입니다
+                    </p>
+                    <p>
+                        <a href="">read more</a>
+                    </p>
+                </div>
+            </article>
+            <div class="fixed">
+                <a href=""><img src="imgs/burger.png"></a>
+            </div>
+        </div>
+        <div class="round">
+            <div class="scroll">scroll</div>
+            <a href="mailto:klucas96@naver.com" target="_top"><img src="imgs/mail-icon.png"></a>
+        </div>
+    </section>
+
+    <section class="box">
+            <div>
+                <img src="imgs/mail_new.png">
+                klucas96@naver.com
+            </div>
+            <div>
+                <img src="imgs/kakao_new.png">
+                blackcas
+            </div>
+            <div>
+                <img src="imgs/call_new.png">
+                010-5886-9312
+            </div>
+            <div>
+                <img src="imgs/clip.png">
+            </div>
+    </section>
+
+
+    <section class="profile cir">
+        <article class="abt">
+            <h3>Show Yourself!</h3>
+            <h1>About</h1>
+        </article>
+        <div class="mid">
+            <figure class="me" data-aos="flip-left" data-aos-duration="2000">
+                <img src="imgs/profile_2.jpg">
+                <p>Kim Hong Rae</p>
+                <figcaption>1996.03.03 / klucas96@naver.com</figcaption>
+                <div>
+                    <span>#리더십</span>
+                    <span>#끈기</span>
+                    <span>#소통</span>
+                    <span>#관찰력</span>
+                    <span>#배려</span>
+                </div>
+                <span class="pdf">
+                    <a href="">이력서 PDF</a>
+                </span>
+            </figure>
+            <div class="work" data-aos="fade-up" data-aos-duration="2000">
+                <div class="quote">
+                    실수를 해보지 않은 사람은 한번도 새로운 일을
+                    시도해보지 않았던 사람이다.
+
+
+                </div>
+                <small> - 아인슈타인 -</small>
+                <p class="text">
+                    대부분의 사람들은 새롭게 도전하는것보다 본인이 가장 잘하는것만 할려고합니다.
+                    저또한 실수를 반복할까봐 늘 하던것만 고집했었는데 코딩이라는 분야를 새롭게
+                    배우면서 인내심과 포기하지않는 근성을 가지게되었습니다.
+                    저는 도전을 멈추지않은 개발자로 남아서 큰 기여도를 하고싶습니다
+                </p>
+                <span></span>
+                <div class="long">
+                    <h2>Education</h2>
+                    <p>2016 Taylor’s College Canadian Pre University 수료
+                        2012 Garden International School Kuala Lumpur 졸업
+                    </p>
+                </div>
+                <div class="long">
+                    <h2>Certificate</h2>
+                    <p>2020.11 바리스타 2급 자격증 취득
+                        2013.08 Revival city street church international 봉사활동
+                        2013 OSH Trainers First Aid & CPR 수료
+                        2012 UK senior mathematical challenge 은상
+                        2012 Work Experience Programme Garden International school 동상
+                    </p>
+                </div>
+                <div class="skill">
+                    <h2>Skills</h2>
+                    <div>
+                        <img src="imgs/illus.jpg">
+                        <figure>
+                            <p>ILLUSTRATOR</p>
+                            <figcaption>일러스트를 이용해 다양한 그래픽 디자인을 구현할수있습니다</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <img src="imgs/photo.jpg">
+                        <figure>
+                            <p>PHOTOSHOP</p>
+                            <figcaption>포토샵을 이용해 시안을 제작할수있습니다</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <img src="imgs/html5.jpg">
+                        <figure>
+                            <p>HTML5</p>
+                            <figcaption>웹 표준 준수 및 효율적인 구조와 다양한 웹콘텐츠 등의 제공할수있습니다</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <img src="imgs/css3.jpg">
+                        <figure>
+                            <p>CSS3</p>
+                            <figcaption>다양한 애니메이션, 스타일 및 반응형 모바일 웹페이지를 제작할수있습니다</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <img src="imgs/java.jpg">
+                        <figure>
+                            <p>JAVASCRIPT</p>
+                            <figcaption>기본문법을 이해하며 애니메이션 효과를 구현할수있습니다</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <img src="imgs/jquery.jpg">
+                        <figure>
+                            <p>JQUERY</p>
+                            <figcaption>플러그인 활용 및 다양한 스크립트를 제작할수있습니다</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <img src="imgs/php.jpg">
+                        <figure>
+                            <p>PHP</p>
+                            <figcaption>데이터베이스와 상호작용을 하면서 데이터를 저정하고 표현할수있습니다</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <img src="imgs/react.jpg">
+                        <figure>
+                            <p>REACT</p>
+                            <figcaption>싱글페이지 제작 및 모바일 애플리케이션 개발에 사용할수있습니다</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="three cir">
+        <article>
+            <h3>My Work</h3>
+            <h1>Portfolio</h1>
+        </article>
+        <div class="slide" data-aos="fade-up" data-aos-duration="2000">
+            <div class="txt">
+                <div>01. Dunderville</div>
+            </div>
+            <div class="bg">
+                <div style=background-image:url(imgs/dunder.jpg)></div>
+            </div>
+           
+            <p>1<strong>/3</strong></p>
+        </div>
+    </section>
+
+    <section class="awesome">
+        <div class="active">
+            <figure>
+                <img src="imgs/daon_p.jpg">
+            </figure>
+            <div>
+                <!-- <p>가평에 위치한 다온펜션은 리뉴얼사이트<br>
+                    대상으로 적합하다고 느껴져서 프로젝트로<br>
+                    선정하게되었습니다.<br>
+
+                    <br>최대한 다른 펜션사이트들을 참고하면서<br>
+                    장점들만 색출해서 나만의색깔을 보여주고<br>
+                    보는이의 눈길이 사로잡을수 있을만큼<br>
+                    제작하였습니다.<br>
+
+                    <br>20개의 페이지수를 자랑하며 제작<br>
+                    기간동안 HTML5, CSS3, JAVASCRIPT,<br>
+                    JQUERY를 사용해서 작품을 완료시켰습니다.<br>
+
+                    <br>메인페이지에서 방을 리뷰하는 부분에서는<br>
+                    ajax jason을 이용해서 해당정보들을<br>
+                    불러와서 작업을 이뤄냈으며 slick이라는<br>
+                    슬라이드 플러그인을 이용해서 버튼을<br>
+                    누를때마다 방의 이미지들이 바뀌는걸로<br>
+                    작업을했습니다.<br>
+                </p> -->
+                <a href="">
+                    <span>View Site</span>
+                </a>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <section class="last cir">
+        <article>
+            <h1>Contact</h1>
+            <h2>'언제든 준비되어있는 신입 김홍래입니다!'</h2>
+        </article>
+        <div class="end"  data-aos="fade-up" data-aos-duration="2000">
+            <article>
+                <h3>마무리로...</h3>
+                <p>포트폴리오 사이트를 만들면서 어떻게 하면은 최신 웹페이지들같이 트렌디하고
+                    개성있게 표현할수있는지 고민이 많이됐습니다. 다양한 사이트를 벤치마킹하면서
+                    느낀점은 화려한 디자인과 애니메이션을 보여주는것보다 심플하면서 자기만의
+                    색깔을 녹아들게하는게 많은 유저들을 시선을 사로잡는 큰 장점인걸로
+                    보였습니다. 처음만드는 사이트라 신경도 많이 쓰고 정성도 많이 들어갔습니다. 지금은
+                    저의 고생이 많이 보람되었던 일이라고 느껴집니다.
+                </p>
+            </article>
+            <span></span>
+            <div class="cont">
+                <div>
+                    <img src="imgs/mail.jpg">
+                    <p>klucas96@naver.com</p>
+                </div>
+                <div>
+                    <img src="imgs/kakao.jpg">
+                    <p>blackcas</p>
+                </div>
+                <div>
+                    <img src="imgs/call.jpg">
+                    <p>010-5886-9312</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            Copyrights@2021 All Rights Reserved
+            This template is made by Kim Hong Rae
+        </div>
+    </footer>
+
+    <div class="deco">
+        <canvas id="cvw" width="700" height="700"></canvas>
+    </div>
+
+    <script>
+        var a = document.querySelector('#cvw');
+        var cook = a.getContext('2d');
+        var circle = 330;
+        var h = $(window).height()/2  ;
+
+        var pos = [
+            {x:$(window).width()/2+$(window).width()*.05, y:$(window).height() - a.height/2.5},
+            {x:$(window).width()*0.1, y:$('.three').offset().top - h},
+            {x:$(window).width()/2 - a.width/2, y:($('.last').offset().top + 400) - h}
+        ];
+        var deg=0,loop,current=0,scroll={sy:0,ly:0,state:true};
+
+        $('.deco').css({left:pos[0].x,top:pos[0].y});
+        
+        function draw(){
+            function cir(){
+                
+                cook.clearRect(0,0,a.width,a.height)
+                cook.beginPath();
+                cook.strokeStyle = '#f5f5f5';
+                cook.lineWidth = 28;
+                cook.arc(a.width/2,a.height/2, circle, 0, (Math.PI/180)*deg, false);
+                cook.stroke();
+
+                if(deg <= 360){
+                    deg+=6;
+                    requestAnimationFrame(cir);
+                }
+            
+            }cir();
+        }
+        let bleen = true;
+
+        function rander(scrTop,state){
+            let x = pos[current].x;
+            let y = 0;
+            current == 0 ? y=pos[current].y : y=pos[current].y + $(window).height()/4;
+
+            if(state){
+                if(pos[current].y < scrTop && current < pos.length){                
+                    
+                    
+                    if(current == pos.length -1){
+                        if(bleen) {
+                            deg=0;
+                            $('.deco').css({left:x,top:y});
+                            draw()
+                        }
+                        bleen = false;                        
+                    }else{
+                        deg=0;
+                        $('.deco').css({left:x,top:y});
+                        draw()
+                        current++;
+                        bleen = true;
+                    }
+                    
+                   
+                    
+                }
+            }else{ 
+                if(pos[current].y > scrTop && current >= 0){                
+                    
+                    if(current == 0){
+                        if(bleen) {
+                            deg=0;
+                            $('.deco').css({left:x,top:y});
+                            draw()
+                        }
+                        bleen = false;                        
+                    }else{
+                        deg=0;
+                        $('.deco').css({left:x,top:y});
+                        draw()
+                        current--;
+                        bleen = true;
+                    }
+                    
+                }
+               
+            }
+        }
+        rander(800,true)
+        
+      
+        
+        $(window).scroll(function(){
+            scroll.sy = $(this).scrollTop();
+            scroll.state = scroll.sy > scroll.ly ;
+            scroll.ly = scroll.sy;
+           
+            clearInterval(loop);
+            loop = setTimeout(function(){
+                rander(scroll.sy, scroll.state);
+            },50);           
+        })
+        
+
+        
+        
+    
+        
+    </script>
+</body>
+
+</html>
+
+<!-- 
+
+pos.forEach(function(p,k){
+                
+    if(p.y < scrTop && p.y+50 > scrTop && k != 0){
+        console.log(p.y)                    
+        clearInterval(loop);
+        loop = setTimeout(function(){
+            deg=0;
+            $('.deco').css({left:p.x,top:p.y + $(window).height()/4 });
+            draw()
+        },50);
+    }
+
+    if(scrTop > 0 && scrTop < 50){
+        clearInterval(loop);
+        loop = setTimeout(function(){
+            current++;
+            deg=0;
+            $('.deco').stop().fadeOut(1000).css({left:pos[0].x,top:pos[0].y}).stop().fadeIn(300);
+            draw()
+        },50);
+    }
+}); -->
