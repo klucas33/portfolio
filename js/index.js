@@ -107,7 +107,7 @@ $(function(){
                     tagBig = "<img src="+imgSrc+">"
 
                     tagSmall = "<p>" + txt + "</p>"
-                    tagSmall += "<a href="+url +">"
+                    tagSmall += "<a href="+url +" target='_blank'>"
                     tagSmall += "<span>" +view + "</span>"
                     tagSmall += "</a>"
 

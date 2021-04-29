@@ -74,7 +74,6 @@ body{
     right:0;
     z-index:1;
     width:100%;
-    height:100%;
 
 }
 
@@ -242,7 +241,8 @@ body{
                 text-align: center;
                 z-index:50;
                 transition: .5s;
-                display:block;}
+                display:block;
+                }
 .round a:hover{
     background-color:rgb(235, 91, 146);
 }
@@ -822,9 +822,9 @@ canvas{
         width:100%;
         height:100%;
     }
-    .tall{}
+    .tall{width:100%;}
     .tall canvas{
-        height:680px;
+        height:970px;
     }
     .one{width:100%;
         overflow:visible;
@@ -997,11 +997,12 @@ canvas{
             display:block;
             margin-top:200px;}
             
-    .slide .txt{}
+    .slide .txt{margin-bottom:50px;}
     .slide .txt div{font-size:60px;}
     .slide .txt div.alpha{font-size:90px;}
     .slide .bg{position:unset;
-                width:100%;}
+                width:100%;
+                height:695px;}
     .slide p{margin-top:100px;
             text-align: right;
             font-size:50px;}
@@ -1010,14 +1011,25 @@ canvas{
         height:100%;
     }
     .last{width:90%;}
+    .last > article h1{
+        font-size:80px;
+    }
+    .last > article h2{
+        font-size:50px;
+    }
     .end{width:90%;
         margin:250px auto;}
+    .end article{
+        width:900px;
+    }
     .end article h3{
         font-size:50px;
     }
     .end article p{
         font-size:25px;
+        line-height:3rem;
     }
+    .end span{display:none;}
     .cont div img{width:70px}
     .cont div p{font-size:30px}
     footer{width:100%;
@@ -1025,4 +1037,13 @@ canvas{
     footer div{
         font-size:30px;
     }
+    .box{width:100%;
+        height:100%;}
+
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    body{width:fit-content}
+    .big_img{width:700px;}
+    .big_img img{width:100%;}
 }
