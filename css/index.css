@@ -1010,6 +1010,11 @@ canvas{
     .awesome .active{
         height:100%;
     }
+    .active figure{width:100%;
+                    z-index:1000;}
+    .active >div{position:static;
+                width:100%;}
+    .awesosme .acitve > div p{height:100%;}
     .last{width:90%;}
     .last > article h1{
         font-size:80px;
@@ -1026,24 +1031,64 @@ canvas{
         font-size:50px;
     }
     .end article p{
-        font-size:25px;
+        font-size:28px;
         line-height:3rem;
     }
     .end span{display:none;}
     .cont div img{width:70px}
     .cont div p{font-size:30px}
-    footer{width:100%;
+    footer{width:fit-content;
             height:400px;}
     footer div{
         font-size:30px;
     }
-    .box{width:100%;
-        height:100%;}
-
+    .box.bot{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width:50%;
+        height:20%;
+        top:30%;
+        left:20%;
+    }
+    .box div:not(:nth-of-type(4)){
+        width:1000px;
+        height:20%;
+        font-size:35px;
+    }
+    .box div:nth-of-type(4){
+        top:-20%;
+        left:-5%;
+    }
+    .box div img{
+        width:100px;
+    }
 }
 
-@media(min-width: 768px) and (max-width: 1024px) {
+@media(min-width: 768px) and (max-width:1024px){
     body{width:fit-content}
     .big_img{width:700px;}
     .big_img img{width:100%;}
+    .me{width:100%;
+        margin-bottom:100px;
+}       
+    .me div{font-size:22px;
+            width:30%;}
+    .work{width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    justify-content: center;}
+    .quote{width:100%;
+            text-align:center;
+            font-weight:bold;}
+    .work small{font-size:25px;}
+    .text{font-size:25px;
+        line-height:2;}
+    .mid{display:block;}
+    .skill{width:40%;
+        margin:0;}
+    .bg{width:800px;
+        height:450px;}
+    footer{width: 100vh;}
 }
