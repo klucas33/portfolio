@@ -971,11 +971,12 @@ canvas{
 
     .mid .text{font-size:30px;
                 line-height:3.5rem;
+                margin:100px;
                 }
     .work span{
-        margin-bottom:80px;
+        width:100%;
     }
-    .long{margin:80px 0;}
+    .long{margin:100px;}
     .long h2{font-size:45px;}
     .long p{font-size:30px;
             font-weight:bold;}
@@ -1063,7 +1064,7 @@ canvas{
         width:50%;
         height:20%;
         top:30%;
-        left:20%;
+        left:25%;
     }
     .box div:not(:nth-of-type(4)){
         width:1000px;
@@ -1121,7 +1122,7 @@ canvas{
     .end{flex-direction: column;
         margin-top:170px
         }
-    
+    .round a{bottom:15%;}
     .cont{width:70%;
             padding:0;
             margin:40px 0;}
