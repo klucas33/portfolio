@@ -18,19 +18,22 @@ $(function(){
     })   
     $('.flx article a:nth-of-type(2) h1').on('click',function(e){
         e.preventDefault()
-        $('body,html').animate({'scrollTop':'1200px'},1000);
+        let top = $('.profile').offset().top;
+        $('body,html').animate({'scrollTop':top},1000);
         $('.hid').animate({left:'100%'})
     })    
         
     $('.flx article a:nth-of-type(3) h1').on('click',function(e){
         e.preventDefault()
-        $('body,html').animate({'scrollTop':'3200px'},1000);
+        let mid = $('.three').offset().top;
+        $('body,html').animate({'scrollTop':mid},1000);
         $('.hid').animate({left:'100%'})
     })   
           
     $('.flx article a:nth-of-type(4) h1').on('click',function(e){
         e.preventDefault()
-        $('body,html').animate({'scrollTop':'4300px'},1000);
+        let end = $('.last').offset().top
+        $('body,html').animate({'scrollTop':end},1000);
         $('.hid').animate({left:'100%'})
     })  
 
@@ -207,7 +210,9 @@ $(function(){
         setTimeout(function(){
             $('.big_img img').fadeIn();
         },400)
-
+        setTimeout(function(){
+            $('.round .scroll').fadeIn()
+        },1000)
         
       })
 
@@ -227,6 +232,13 @@ $(function(){
             }
       })
 
-    
+      function setResponsive(){
+          if(matchMedia('only screen and (max-width:480px)').matches){
+              $('body,html').animate({'scrollTop' :'1000px'})
+          }
+      }
+
+      setResponsive();
+
 
 })

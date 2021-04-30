@@ -160,6 +160,7 @@ body{
     margin-bottom:63px;
     width:550px;
     white-space: pre-line;
+    line-height:2rem;
 }
 .com p:nth-of-type(3){
     font-size:14px;
@@ -214,6 +215,7 @@ body{
     position:absolute;
     bottom:50px;
     right:50%;
+    display: none;
 }
 .scroll::before{
     content:'';
@@ -883,7 +885,8 @@ canvas{
     .head .fixed a img{
         width:50px;
     }
-    .round .scroll{display:none;}
+    .round .scroll{bottom:270px;
+                    left:0%;}
     .round a{
         width:150px;
         height:150px;
@@ -969,24 +972,25 @@ canvas{
                 margin-top:5rem;
                 text-align: center;}
 
-    .mid .text{font-size:30px;
+    .mid .text{font-size:35px;
                 line-height:3.5rem;
                 margin:100px;
+                white-space: normal;
                 }
     .work span{
         width:100%;
     }
     .long{margin:100px;}
-    .long h2{font-size:45px;}
-    .long p{font-size:30px;
+    .long h2{font-size:55px;}
+    .long p{font-size:40px;
             font-weight:bold;}
     .skill{margin:100px}
-    .skill h2{font-size:45px;}
+    .skill h2{font-size:55px;}
     .skill div{}
     .skill div img{width:10%;}
-    .skill div figure{line-height:3rem;}
-    .skill div figure p{font-size:35px;}
-    .skill div figure figcaption{font-size:30px;}
+    .skill div figure{line-height:4rem;}
+    .skill div figure p{font-size:40px;}
+    .skill div figure figcaption{font-size:35px;}
     .three{width:90%;
             margin:0 auto;
             }
@@ -1032,7 +1036,7 @@ canvas{
                                     top:1%;}
     .last{width:90%;}
     .last > article h1{
-        font-size:80px;
+        font-size:100px;
     }
     .last > article h2{
         font-size:50px;
@@ -1052,8 +1056,9 @@ canvas{
     .end span{display:none;}
     .cont div img{width:70px}
     .cont div p{font-size:30px}
-    footer{width:fit-content;
-            height:400px;}
+    footer{
+            height:300px;
+            position:unset;}
     footer div{
         font-size:30px;
     }
@@ -1078,6 +1083,7 @@ canvas{
     .box div img{
         width:100px;
     }
+    canvas{display:none;}
 }
 
 @media(min-width: 768px) and (max-width:1024px){
@@ -1091,7 +1097,7 @@ canvas{
     .me div{font-size:22px;
             width:30%;}
     .me img{width:700px;
-            height:800px;}
+            height:875px;}
     .work{width:100%;
         display:flex;
         flex-direction: column;
@@ -1102,7 +1108,8 @@ canvas{
             font-weight:bold;}
     .work small{font-size:25px;}
     .text{font-size:25px;
-        line-height:2;}
+        line-height:2;
+        text-align: center;}
     .long{width:50%;}
     .long h2{font-size:35px;}
     .long p{font-size:20px;}
@@ -1144,5 +1151,10 @@ canvas{
     .end article p{font-size:22px;
                     line-height: 2.5rem;}
     .end span{display:none;}
-    footer{}
+    .round .scroll{bottom:133px;}
+    canvas{display:none;}
+    footer{position:unset}
+    footer div{width:100%;
+                font-size:25px;
+                line-height:2rem;}
 }
