@@ -25,7 +25,7 @@
             "thum" : "imgs/corona.jpg",
             "num" : "3/3",
             "imgSrc" : "imgs/corona19_p.jpg",
-            "url":"https://klucas33.github.io/corona19/",
+            "url":"https://klucas33.github.io/corona/",
             "view":"View site",
             "txt":"현재 급증하고 있는 코로나바이러스감염증 국내통계를 \n React를 이용해서 싱글페이지로 보여주면서 통계표에는 \n 전체확지자 및 지역별 확진자, 완치자, 사망자 수치들을 \n 보여주고있습니다. \n\n Json을 이용해서 코로나 수치들을 불러와 테이블형식으로 \n 표현을해봤습니다. 또한, 국내 전지역을 jquery를 이용해서 \n option을 클릭할때마다 변경되도록 설정해두었습니다. \n\n 마지막으로 웹상에있는 그래프 플러그인을 도입시켜서 \n 지역을 바꿀때마다 그래프 수치또한 바뀌도록 만들었습니다. \n 또한 React-router-dom을 설치해서 nav태그들을 클릭을해도\n 그 페이지로  새롭게 이동하는게 아니라 해당문서만 로드가되는 \n 형식으로 되어있습니다."
         }
