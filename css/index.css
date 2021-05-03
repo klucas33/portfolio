@@ -1089,6 +1089,8 @@ canvas{
 @media(min-width: 768px) and (max-width:1024px){
     body{width:fit-content}
     .first{justify-content:flex-end;}
+    .com{height:400px;}
+    .com p:nth-of-type(3){font-size:20px;}
     .big_img{width:700px;}
     .big_img img{width:100%;}
     .me{width:100%;
@@ -1151,7 +1153,7 @@ canvas{
     .end article p{font-size:22px;
                     line-height: 2.5rem;}
     .end span{display:none;}
-    .round .scroll{bottom:133px;}
+    .round .scroll{}
     canvas{display:none;}
     footer{position:unset}
     footer div{width:100%;

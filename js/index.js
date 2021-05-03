@@ -39,7 +39,8 @@ $(function(){
 
     $('.com p a').on('click',function(e){
         e.preventDefault();
-        $('body,html').animate({'scrollTop':'1270px'},500);
+        let top = $('.profile').offset().top;
+        $('body,html').animate({'scrollTop':top},500);
     })
          
     
