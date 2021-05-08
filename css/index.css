@@ -92,16 +92,16 @@ body{
     
 }
 .big_img{
-    width:819px;
-    height:1080px;
+    width:50%;
+    height:100%;
     margin:0 45px 0 0;
 }
 .big_img img{
     display:none;
 }
 .first{
-    width:850px;
-    height:1080px;
+    width:42%;
+    height:100%;
     display:flex;
     flex-direction:column;
     align-items: left;
@@ -141,7 +141,6 @@ body{
     top:10px;
 }
 .com{
-    height:300px;
     width:464px;
     margin-left:148px;
     margin-top:84px;
@@ -214,7 +213,7 @@ body{
     transform:rotate(90deg);
     position:absolute;
     bottom:50px;
-    right:50%;
+    right:42%;
     display: none;
 }
 .scroll::before{
@@ -605,7 +604,7 @@ small{
 .awesome.block .active div{top:0;}
 .active div p{
     /* width:339px; */
-    height:826px;
+    height:85%;
     letter-spacing:1.2px;
     line-height:30px;
     display:flex;
